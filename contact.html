@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact Finch House Design." />
+  <title>Contact — Finch House Design</title>
+  <link rel="icon" href="assets/logo.jpg" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.jpg" alt="Finch House Design logo" />
+        <div>
+          <b>Finch House Design</b>
+          <span data-i18n="tagline"
+                data-en="Remote-first interior design • Worldwide"
+                data-ru="Онлайн-дизайн интерьера • по всему миру">Remote-first interior design • Worldwide</span>
+        </div>
+      </a>
+
+      <button class="burger" type="button" data-burger aria-label="Open menu">☰</button>
+
+      <div class="menu" data-menu>
+        <a href="index.html" data-page="home" data-i18n="nav_home" data-en="Home" data-ru="Главная">Home</a>
+        <a href="services.html" data-page="services" data-i18n="nav_services" data-en="Services" data-ru="Услуги">Services</a>
+        <a href="process.html" data-page="process" data-i18n="nav_process" data-en="Process" data-ru="Процесс">Process</a>
+        <a href="portfolio.html" data-page="portfolio" data-i18n="nav_portfolio" data-en="Portfolio" data-ru="Портфолио">Portfolio</a>
+        <a href="about.html" data-page="about" data-i18n="nav_about" data-en="About" data-ru="О нас">About</a>
+        <a href="contact.html" data-page="contact" data-i18n="nav_contact" data-en="Contact" data-ru="Контакты">Contact</a>
+
+        <div class="langSwitch" aria-label="Language switch">
+          <button type="button" data-lang-en class="active">EN</button>
+          <button type="button" data-lang-ru>RU</button>
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section>
+      <div class="pill" data-i18n="c_pill" data-en="send a brief • we’ll guide you" data-ru="отправьте бриф • мы подскажем">
+        send a brief • we’ll guide you
+      </div>
+
+      <h1 class="hTitle" data-i18n="c_h1" data-en="Contact" data-ru="Контакты">Contact</h1>
+
+      <p class="hLead"
+         data-i18n="c_lead"
+         data-en="Send a short brief — we’ll reply with the best starting service."
+         data-ru="Отправьте короткий бриф — ответим с лучшим стартовым форматом.">
+        Send a short brief — we’ll reply with the best starting service.
+      </p>
+    </section>
+
+    <section>
+      <div class="grid2">
+        <div class="card"><div class="pad">
+          <h3 data-i18n="c_form_t" data-en="Quick enquiry form" data-ru="Форма заявки">Quick enquiry form</h3>
+          <p class="sectionLead" data-i18n="c_form_p" data-en="Opens your email with a pre-filled message." data-ru="Откроет письмо с заполненным текстом.">Opens your email with a pre-filled message.</p>
+
+          <form data-mailto="fhdesigned@gmail.com">
+            <label class="small" data-i18n="f_name" data-en="Name" data-ru="Имя">Name</label>
+            <input name="name" required />
+
+            <label class="small" data-i18n="f_phone" data-en="Phone / WhatsApp" data-ru="Телефон / WhatsApp">Phone / WhatsApp</label>
+            <input name="phone" placeholder="+79268476631" />
+
+            <label class="small" data-i18n="f_city" data-en="City" data-ru="Город">City</label>
+            <input name="city" data-i18n-ph data-en="e.g., Sydney / London / Dubai" data-ru="например: Сидней / Лондон / Дубай" placeholder="e.g., Sydney / London / Dubai" />
+
+            <label class="small" data-i18n="f_service" data-en="Service" data-ru="Услуга">Service</label>
+            <select name="service">
+              <option data-i18n="opt1" data-en="Not sure yet" data-ru="Пока не уверена(ен)">Not sure yet</option>
+              <option>Short-Stay Makeover</option>
+              <option>Rental Refresh</option>
+              <option>Kitchen/Bath Lite</option>
+            </select>
+
+            <label class="small" data-i18n="f_budget" data-en="Budget (optional)" data-ru="Бюджет (необязательно)">Budget (optional)</label>
+            <input name="budget" placeholder="AUD / USD / EUR" />
+
+            <label class="small" data-i18n="f_timeline" data-en="Timeline (optional)" data-ru="Сроки (необязательно)">Timeline (optional)</label>
+            <input name="timeline" data-i18n-ph data-en="e.g., next 2–4 weeks" data-ru="например: ближайшие 2–4 недели" placeholder="e.g., next 2–4 weeks" />
+
+            <label class="small" data-i18n="f_msg" data-en="Message" data-ru="Сообщение">Message</label>
+            <textarea name="message" rows="6" required
+              data-i18n-ph
+              data-en="What’s not working now? What should be easier? Add links/photos if you have them."
+              data-ru="Что сейчас не работает? Что должно стать проще? Добавьте ссылки/фото, если есть."
+              placeholder="What’s not working now? What should be easier? Add links/photos if you have them."></textarea>
+
+            <button class="btn primary" type="submit" data-i18n="send" data-en="Send enquiry" data-ru="Отправить">Send enquiry</button>
+          </form>
+        </div></div>
+
+        <div class="card"><div class="pad">
+          <h3 data-i18n="c_direct" data-en="Direct contact" data-ru="Напрямую">Direct contact</h3>
+
+          <p><b>Email:</b> <a href="mailto:fhdesigned@gmail.com">fhdesigned@gmail.com</a></p>
+          <p><b>WhatsApp:</b> <a href="https://wa.me/79268476631" target="_blank" rel="noreferrer">+79268476631</a></p>
+          <p><b>Telegram:</b> <a href="https://t.me/Anastasyafinch" target="_blank" rel="noreferrer">@Anastasyafinch</a></p>
+          <p><b>Instagram:</b> <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer">@finch.house.design</a></p>
+
+          <div class="hr"></div>
+
+          <p class="muted"
+             data-i18n="c_note"
+             data-en="Tip: attach a plan/measurements + photos/video — you’ll get a faster, more accurate reply."
+             data-ru="Совет: приложите план/замеры + фото/видео — ответ будет быстрее и точнее.">
+            Tip: attach a plan/measurements + photos/video — you’ll get a faster, more accurate reply.
+          </p>
+        </div></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footerGrid">
+      <div>
+        <p class="muted" style="margin:0 0 10px;"
+           data-i18n="footer_text"
+           data-en="Remote studio delivering premium-looking, comfort-first interiors worldwide."
+           data-ru="Онлайн-студия: комфортные интерьеры с премиальным ощущением по всему миру.">
+          Remote studio delivering premium-looking, comfort-first interiors worldwide.
+        </p>
+        <p class="small">© 2026 Finch House Design.</p>
+      </div>
+      <div>
+        <div class="footerLinks">
+          <a href="services.html" data-i18n="nav_services" data-en="Services" data-ru="Услуги">Services</a>
+          <a href="portfolio.html" data-i18n="nav_portfolio" data-en="Portfolio" data-ru="Портфолио">Portfolio</a>
+        </div>
+        <p class="small" style="margin:12px 0 0;">
+          <b>Email:</b> <a href="mailto:fhdesigned@gmail.com">fhdesigned@gmail.com</a><br/>
+          <b>WhatsApp:</b> <a href="https://wa.me/79268476631" target="_blank" rel="noreferrer">+79268476631</a><br/>
+          <b>Telegram:</b> <a href="https://t.me/Anastasyafinch" target="_blank" rel="noreferrer">@Anastasyafinch</a><br/>
+          <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer"
+             style="color: var(--accent); font-weight: 800;">Instagram: @finch.house.design</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="assets/app.js"></script>
+</footer>
+</body>
+</html>
