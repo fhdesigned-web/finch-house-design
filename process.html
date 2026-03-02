@@ -44,109 +44,274 @@
 <main>
   <div class="wrap">
     <section>
-      <div class="pill" data-i18n="proc_pill" data-en="simple steps • calm project" data-ru="простые шаги • спокойный проект">
-        simple steps • calm project
+      <div class="pill"
+           data-i18n="pr_pill"
+           data-en="simple steps • calm implementation"
+           data-ru="простые шаги • спокойная реализация">
+        simple steps • calm implementation
       </div>
 
-      <h1 class="hTitle" data-i18n="proc_h1" data-en="Process" data-ru="Процесс">Process</h1>
+      <h1 class="hTitle" data-i18n="pr_h1" data-en="Process" data-ru="Процесс">Process</h1>
 
       <p class="hLead"
-         data-i18n="proc_lead"
-         data-en="We make decisions in the right order: comfort first, then style, then smart buying — so the renovation feels easy."
-         data-ru="Выстраиваем решения в правильном порядке: сначала комфорт, потом стиль, потом умные покупки — чтобы ремонт был без хаоса.">
-        We make decisions in the right order: comfort first, then style, then smart buying — so the renovation feels easy.
+         data-i18n="pr_lead"
+         data-en="A clear, remote-first workflow. You always know what happens next, what you’ll receive, and what we need from you."
+         data-ru="Понятный онлайн-процесс. Вы всегда знаете, что дальше, что получите на выходе и что нужно от вас.">
+        A clear, remote-first workflow. You always know what happens next, what you’ll receive, and what we need from you.
       </p>
     </section>
 
-    <!-- HERO IMAGE with text on image (raised) -->
     <section>
-      <div class="card" style="position:relative;">
-        <img class="media" src="assets/process.jpg" alt="Process mood"
-             style="aspect-ratio:16/9; height:520px; object-fit:cover;" />
+      <div class="grid2">
+        <div class="card">
+          <div class="pad">
+            <h2 style="margin:0 0 8px;"
+                data-i18n="pr_overview_h2"
+                data-en="Typical timeline"
+                data-ru="Сроки (обычно)">
+              Typical timeline
+            </h2>
 
-        <div style="
-          position:absolute; inset:0;
-          background:linear-gradient(90deg, rgba(252,252,251,.92), rgba(252,252,251,.25) 55%, rgba(252,252,251,.06));
-          pointer-events:none;"></div>
+            <p class="muted" style="margin:0 0 10px;">
+              <span data-i18n="pr_overview_a"
+                    data-en="Most projects take"
+                    data-ru="Большинство проектов занимает">Most projects take</span>
+              <b data-i18n="pr_overview_b"
+                 data-en=" 7–14 business days "
+                 data-ru=" 7–14 рабочих дней "> 7–14 business days </b>
+              <span data-i18n="pr_overview_c"
+                    data-en="after we receive your brief and measurements. Faster timelines are possible depending on scope and availability."
+                    data-ru="после получения брифа и замеров. Быстрее возможно — в зависимости от объёма и доступности.">
+                after we receive your brief and measurements. Faster timelines are possible depending on scope and availability.
+              </span>
+            </p>
 
-        <div style="
-          position:absolute;
-          left:18px;
-          top:22px;
-          right:18px;
-          bottom:auto;
-          max-width:680px;
-          padding:18px 18px;
-          border-radius:20px;
-          border:1px solid rgba(255,255,255,.72);
-          background:rgba(255,255,255,.86);
-          backdrop-filter:blur(10px);">
+            <div class="hr"></div>
 
-          <h3 style="margin:0 0 6px; font-family: var(--serif); font-size:22px; font-weight:700;"
-              data-i18n="proc_img_t"
-              data-en="The vibe we aim for"
-              data-ru="Атмосфера, к которой идём">
-            The vibe we aim for
-          </h3>
+            <h2 style="margin:0 0 8px;"
+                data-i18n="pr_tools_h2"
+                data-en="How we work"
+                data-ru="Как работаем">
+              How we work
+            </h2>
 
-          <p class="muted" style="margin:0;"
-             data-i18n="proc_img_p"
-             data-en="Calm, clean, and controlled — even when the project is big."
-             data-ru="Спокойно, чисто и под контролем — даже если проект большой.">
-            Calm, clean, and controlled — even when the project is big.
-          </p>
+            <ul class="list">
+              <li data-i18n="pr_tools_1"
+                  data-en="Remote-first: video call + messaging, with clear checkpoints."
+                  data-ru="Онлайн: созвон + переписка, с понятными контрольными точками.">
+                Remote-first: video call + messaging, with clear checkpoints.
+              </li>
+              <li data-i18n="pr_tools_2"
+                  data-en="We keep decisions structured: layout first, then finishes, then shopping/spec."
+                  data-ru="Решения принимаем по порядку: сначала планировка, потом отделка, затем список закупок/спецификация.">
+                We keep decisions structured: layout first, then finishes, then shopping/spec.
+              </li>
+              <li data-i18n="pr_tools_3"
+                  data-en="You get deliverables you can actually use (not a moodboard-only story)."
+                  data-ru="Вы получаете материалы, которые реально можно внедрить (не только «красивую картинку»).">
+                You get deliverables you can actually use (not a moodboard-only story).
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="pad">
+            <h2 style="margin:0 0 8px;"
+                data-i18n="pr_need_h2"
+                data-en="What we need from you"
+                data-ru="Что нужно от вас">
+              What we need from you
+            </h2>
+
+            <p class="muted" style="margin:0 0 10px;"
+               data-i18n="pr_need_lead"
+               data-en="Even a short message is enough to start. The more precise the inputs, the faster and cleaner the result."
+               data-ru="Чтобы начать, достаточно короткого сообщения. Чем точнее входные данные, тем быстрее и чище результат.">
+              Even a short message is enough to start. The more precise the inputs, the faster and cleaner the result.
+            </p>
+
+            <ul class="list">
+              <li data-i18n="pr_need_1"
+                  data-en="Plan or sketch with key measurements (or a quick video + dimensions)."
+                  data-ru="План/эскиз с ключевыми размерами (или короткое видео + размеры).">
+                Plan or sketch with key measurements (or a quick video + dimensions).
+              </li>
+              <li data-i18n="pr_need_2"
+                  data-en="Photos in daylight (and evening if possible)."
+                  data-ru="Фото при дневном свете (и вечером, если возможно).">
+                Photos in daylight (and evening if possible).
+              </li>
+              <li data-i18n="pr_need_3"
+                  data-en="Your goal, budget range, and timeline."
+                  data-ru="Цель, примерный бюджет и сроки.">
+                Your goal, budget range, and timeline.
+              </li>
+              <li data-i18n="pr_need_4"
+                  data-en="Anything that must stay (furniture, finishes, constraints)."
+                  data-ru="Что нужно сохранить (мебель, отделка, ограничения).">
+                Anything that must stay (furniture, finishes, constraints).
+              </li>
+            </ul>
+
+            <div class="btnRow" style="justify-content:flex-start; margin-top:14px;">
+              <a class="btn primary" href="contact.html"
+                 data-i18n="pr_cta"
+                 data-en="Send a brief"
+                 data-ru="Отправить бриф">Send a brief</a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section>
-      <div class="grid3">
-        <div class="card"><div class="pad">
-          <h3 data-i18n="st1" data-en="1) Brief" data-ru="1) Бриф">1) Brief</h3>
-          <p data-i18n="st1p" data-en="Photos/video, measurements, goals, budget range." data-ru="Фото/видео, замеры, цель, диапазон бюджета.">
-            Photos/video, measurements, goals, budget range.
-          </p>
-        </div></div>
+      <div class="card">
+        <div class="pad">
+          <h2 style="margin:0 0 10px;"
+              data-i18n="pr_steps_h2"
+              data-en="Step-by-step"
+              data-ru="Шаги процесса">
+            Step-by-step
+          </h2>
 
-        <div class="card"><div class="pad">
-          <h3 data-i18n="st2" data-en="2) Comfort-first layout" data-ru="2) Планировка под комфорт">2) Comfort-first layout</h3>
-          <p data-i18n="st2p" data-en="Flow, zones, storage, furniture logic." data-ru="Логика движения, зоны, хранение, мебель.">
-            Flow, zones, storage, furniture logic.
-          </p>
-        </div></div>
+          <div class="grid2">
+            <div class="card">
+              <div class="pad">
+                <div class="pill" data-i18n="pr_s1_pill" data-en="Step 1" data-ru="Шаг 1">Step 1</div>
+                <h3 style="margin:10px 0 6px;"
+                    data-i18n="pr_s1_t"
+                    data-en="Brief + scope"
+                    data-ru="Бриф + объём">
+                  Brief + scope
+                </h3>
+                <p class="muted" style="margin:0 0 10px;"
+                   data-i18n="pr_s1_p"
+                   data-en="We clarify goals, constraints, budget, and timeline. Then we confirm the best package and a clear quote."
+                   data-ru="Уточняем цель, ограничения, бюджет и сроки. Затем подтверждаем подходящий пакет и понятную стоимость.">
+                  We clarify goals, constraints, budget, and timeline. Then we confirm the best package and a clear quote.
+                </p>
+                <ul class="list">
+                  <li data-i18n="pr_s1_li1"
+                      data-en="You send: plan/photos + priorities."
+                      data-ru="Вы присылаете: план/фото + приоритеты.">
+                    You send: plan/photos + priorities.
+                  </li>
+                  <li data-i18n="pr_s1_li2"
+                      data-en="We deliver: scope, timeline, quote, next steps."
+                      data-ru="Мы даём: объём, сроки, стоимость, следующие шаги.">
+                    We deliver: scope, timeline, quote, next steps.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-        <div class="card"><div class="pad">
-          <h3 data-i18n="st3" data-en="3) Style & smart buying" data-ru="3) Стиль и умные покупки">3) Style & smart buying</h3>
-          <p data-i18n="st3p" data-en="Simplify finishes and reduce costs via alternatives." data-ru="Упрощаем отделку и удешевляем покупки через замены.">
-            Simplify finishes and reduce costs via alternatives.
-          </p>
-        </div></div>
-      </div>
+            <div class="card">
+              <div class="pad">
+                <div class="pill" data-i18n="pr_s2_pill" data-en="Step 2" data-ru="Шаг 2">Step 2</div>
+                <h3 style="margin:10px 0 6px;"
+                    data-i18n="pr_s2_t"
+                    data-en="Layout + planning logic"
+                    data-ru="Планировка + логика">
+                  Layout + planning logic
+                </h3>
+                <p class="muted" style="margin:0 0 10px;"
+                   data-i18n="pr_s2_p"
+                   data-en="We build a comfort-first layout: zones, flow, furniture placement, and storage logic. This step prevents expensive mistakes later."
+                   data-ru="Делаем планировку «комфорт прежде всего»: зоны, сценарии, расстановку и хранение. Это предотвращает дорогие ошибки позже.">
+                  We build a comfort-first layout: zones, flow, furniture placement, and storage logic. This step prevents expensive mistakes later.
+                </p>
+                <ul class="list">
+                  <li data-i18n="pr_s2_li1"
+                      data-en="You review: one structured revision round included."
+                      data-ru="Вы смотрите: 1 раунд правок включён.">
+                    You review: one structured revision round included.
+                  </li>
+                  <li data-i18n="pr_s2_li2"
+                      data-en="We deliver: final layout + clear planning notes."
+                      data-ru="Мы отдаём: финальную планировку + пояснения.">
+                    We deliver: final layout + clear planning notes.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-      <div class="hr"></div>
+            <div class="card">
+              <div class="pad">
+                <div class="pill" data-i18n="pr_s3_pill" data-en="Step 3" data-ru="Шаг 3">Step 3</div>
+                <h3 style="margin:10px 0 6px;"
+                    data-i18n="pr_s3_t"
+                    data-en="Style direction + key decisions"
+                    data-ru="Стиль + ключевые решения">
+                  Style direction + key decisions
+                </h3>
+                <p class="muted" style="margin:0 0 10px;"
+                   data-i18n="pr_s3_p"
+                   data-en="We define finishes, colours, textures, and lighting direction. The goal is cohesive and maintainable — stylish, not fragile."
+                   data-ru="Определяем материалы, цвета, фактуры и направление по свету. Цель — цельно и практично: стильно, но не «хрупко».">
+                  We define finishes, colours, textures, and lighting direction. The goal is cohesive and maintainable — stylish, not fragile.
+                </p>
+                <ul class="list">
+                  <li data-i18n="pr_s3_li1"
+                      data-en="We deliver: finish palette + key recommendations."
+                      data-ru="Мы отдаём: палитру и ключевые рекомендации.">
+                    We deliver: finish palette + key recommendations.
+                  </li>
+                  <li data-i18n="pr_s3_li2"
+                      data-en="Optional: quick alternatives for budget and availability."
+                      data-ru="Опционально: альтернативы под бюджет и наличие.">
+                    Optional: quick alternatives for budget and availability.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-      <div class="card"><div class="pad">
-        <h2 class="sectionTitle" data-i18n="del_t" data-en="Deliverables" data-ru="Что вы получите">Deliverables</h2>
-        <ul class="list">
-          <li data-i18n="d1" data-en="Layouts with notes and priority order" data-ru="Планировки с комментариями и приоритетами">Layouts with notes and priority order</li>
-          <li data-i18n="d2" data-en="Finish/style direction" data-ru="Направление по отделке/стилю">Finish/style direction</li>
-          <li data-i18n="d3" data-en="Shopping list + cheaper alternatives" data-ru="Список закупок + удешевляющие альтернативы">Shopping list + cheaper alternatives</li>
-        </ul>
+            <div class="card">
+              <div class="pad">
+                <div class="pill" data-i18n="pr_s4_pill" data-en="Step 4" data-ru="Шаг 4">Step 4</div>
+                <h3 style="margin:10px 0 6px;"
+                    data-i18n="pr_s4_t"
+                    data-en="Shopping/spec list + implementation"
+                    data-ru="Список закупок/спецификация + реализация">
+                  Shopping/spec list + implementation
+                </h3>
+                <p class="muted" style="margin:0 0 10px;"
+                   data-i18n="pr_s4_p"
+                   data-en="You get a buyable list with alternatives and simple notes for implementation. Clear priorities, so it’s easy to execute without chaos."
+                   data-ru="Вы получаете закупаемый список с альтернативами и простые пояснения. Понятные приоритеты — чтобы реализовать без хаоса.">
+                  You get a buyable list with alternatives and simple notes for implementation. Clear priorities, so it’s easy to execute without chaos.
+                </p>
+                <ul class="list">
+                  <li data-i18n="pr_s4_li1"
+                      data-en="We deliver: shopping/spec list + practical notes."
+                      data-ru="Мы отдаём: список закупок/спецификацию + пояснения.">
+                    We deliver: shopping/spec list + practical notes.
+                  </li>
+                  <li data-i18n="pr_s4_li2"
+                      data-en="If you have a contractor: we can share simple guidance to keep it consistent."
+                      data-ru="Если есть исполнители: дадим краткие рекомендации, чтобы всё было последовательно.">
+                    If you have a contractor: we can share simple guidance to keep it consistent.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-        <div class="btnRow">
-          <a class="btn primary" href="contact.html" data-i18n="cta" data-en="Start a project" data-ru="Начать проект">Start a project</a>
-          <a class="btn" href="services.html" data-i18n="cta2" data-en="See services" data-ru="Услуги">See services</a>
+          </div>
+
+          <div class="hr"></div>
+
+          <div class="btnRow">
+            <a class="btn primary" href="contact.html"
+               data-i18n="pr_cta2"
+               data-en="Start with a brief"
+               data-ru="Начать с брифа">Start with a brief</a>
+            <a class="btn" href="services.html"
+               data-i18n="pr_cta3"
+               data-en="See packages"
+               data-ru="Посмотреть пакеты">See packages</a>
+          </div>
         </div>
-      </div></div>
-
-      <p class="small" style="margin:14px 0 0;"
-         data-i18n="ig_line"
-         data-en="More projects and updates on Instagram:"
-         data-ru="Больше проектов и обновлений в Instagram:">
-        More projects and updates on Instagram:
-        <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer"
-           style="color: var(--accent); font-weight: 800;">@finch.house.design</a>
-      </p>
+      </div>
     </section>
   </div>
 </main>
@@ -182,7 +347,7 @@
     </div>
   </div>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=7"></script>
 </footer>
 </body>
 </html>
