@@ -113,7 +113,6 @@
         </div>
 
         <div class="heroMedia">
-          <!-- image framing fix -->
           <img src="assets/hero.jpg" alt="Interior hero" style="object-position: 22% center;" />
           <div class="heroOverlay"></div>
           <div class="quote">
@@ -170,17 +169,51 @@
         </div>
       </div>
 
-      <p class="small" style="margin:14px 0 0;"
-         data-i18n="ig_line"
-         data-en="More projects and updates on Instagram:"
-         data-ru="Больше проектов и обновлений в Instagram:">
-        More projects and updates on Instagram:
-        <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer" style="color: var(--accent); font-weight: 800;">@finch.house.design</a>
+      <!-- FIXED Instagram line: text translated, link stays a link -->
+      <p class="small" style="margin:14px 0 0;">
+        <span data-i18n="ig_line"
+              data-en="More projects and updates on Instagram:"
+              data-ru="Больше проектов и обновлений в Instagram:">
+          More projects and updates on Instagram:
+        </span>
+        <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer"
+           style="color: var(--accent); font-weight: 800;">@finch.house.design</a>
       </p>
 
       <div class="btnRow">
         <a class="btn primary" href="contact.html" data-i18n="cta2" data-en="Get a quote" data-ru="Запросить расчёт">Get a quote</a>
         <a class="btn" href="process.html" data-i18n="cta3" data-en="How it works" data-ru="Как это работает">How it works</a>
+      </div>
+
+      <!-- Conversion block: 2 lines + 2 CTAs -->
+      <div class="card" style="margin-top:18px;">
+        <div class="pad">
+          <h3 style="margin:0 0 6px;"
+              data-i18n="home_conv_h3"
+              data-en="Want clarity fast?"
+              data-ru="Нужна ясность быстро?">
+            Want clarity fast?
+          </h3>
+
+          <p class="muted" style="margin:0 0 14px;"
+             data-i18n="home_conv_p"
+             data-en="Send a brief — we’ll recommend the best package and confirm timeline + pricing."
+             data-ru="Пришлите бриф — мы подскажем лучший пакет и подтвердим сроки + стоимость.">
+            Send a brief — we’ll recommend the best package and confirm timeline + pricing.
+          </p>
+
+          <div class="btnRow" style="justify-content:flex-start;">
+            <a class="btn primary" href="contact.html"
+               data-i18n="home_conv_cta1"
+               data-en="Send a brief"
+               data-ru="Отправить бриф">Send a brief</a>
+
+            <a class="btn" href="services.html"
+               data-i18n="home_conv_cta2"
+               data-en="See packages"
+               data-ru="Посмотреть пакеты">See packages</a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -211,13 +244,14 @@
           <b>Email:</b> <a href="mailto:fhdesigned@gmail.com">fhdesigned@gmail.com</a><br/>
           <b>WhatsApp:</b> <a href="https://wa.me/79268476631" target="_blank" rel="noreferrer">+79268476631</a><br/>
           <b>Telegram:</b> <a href="https://t.me/Anastasyafinch" target="_blank" rel="noreferrer">@Anastasyafinch</a><br/>
-          <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer" style="color: var(--accent); font-weight: 800;">Instagram: @finch.house.design</a>
+          <a href="https://www.instagram.com/finch.house.design/" target="_blank" rel="noreferrer"
+             style="color: var(--accent); font-weight: 800;">Instagram: @finch.house.design</a>
         </p>
       </div>
     </div>
   </div>
 
-  <script src="assets/app.js"></script>
+  <script src="assets/app.js?v=9"></script>
 </footer>
 </body>
 </html>
